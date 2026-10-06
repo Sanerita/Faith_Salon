@@ -16,6 +16,8 @@ export default function Footer() {
               Where beauty meets serenity. Your trusted partner in 
               hair, lashes, nails, massage, and reflexology.
             </p>
+
+
           </div>
 
           <div className="footer-col">
@@ -39,17 +41,22 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Contact</h4>
-            <ul>
-              <li>
-                <a href="https://wa.me/27766718164" target="_blank" rel="noopener noreferrer">
-                  WhatsApp: +27 76 671 8164
-                </a>
-              </li>
-              <li>House Calls: Mon – Wed</li>
-              <li>Salon: Mon – Sat, 8am – 7pm</li>
-            </ul>
-          </div>
+  <h4>Contact</h4>
+  <ul>
+    <li>
+      <a href="https://wa.me/27766718164" target="_blank" rel="noopener noreferrer">
+        WhatsApp: +27 76 671 8164
+      </a>
+    </li>
+    <li>
+      Shop 19, Camlew Centre<br />
+      C/o Voortrekker Rd & Wendland St<br />
+      Parow, 7500
+    </li>
+    <li>House Calls: Mon – Wed</li>
+    <li>Salon: Mon – Sat, 8am – 7pm</li>
+  </ul>
+</div>
         </div>
 
         <div className="footer-bottom">

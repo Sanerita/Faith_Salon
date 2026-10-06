@@ -115,6 +115,7 @@ export default function Booking() {
                 />
               </div>
             </div>
+            
 
             <div className="form-group">
               <label htmlFor="service">Service *</label>
@@ -197,6 +198,17 @@ export default function Booking() {
                 </a>
               </div>
             </div>
+
+<div className="info-item">
+  <span className="info-icon">📍</span>
+  <div>
+    <strong>Visit Us</strong>
+    <span>Shop 19, Camlew Centre</span>
+    <span>C/o Voortrekker Rd & Wendland St</span>
+    <span>Parow, 7500</span>
+  </div>
+</div>
+
             <div className="info-item">
               <span className="info-icon">🏠</span>
               <div>
