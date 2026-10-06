@@ -1,0 +1,150 @@
+.house-calls {
+  padding: 100px 0;
+  background: linear-gradient(135deg, var(--blush) 0%, var(--cream) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.house-calls-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 18px;
+  background: var(--white);
+  border-radius: 50px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--deep-rose);
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+
+.house-calls-title {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  color: var(--charcoal);
+  margin-bottom: 24px;
+}
+
+.house-calls-title .italic {
+  font-style: italic;
+  color: var(--deep-rose);
+  font-weight: 400;
+}
+
+.house-calls-desc {
+  color: var(--soft-gray);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.house-calls-desc strong {
+  color: var(--deep-rose);
+  font-weight: 600;
+}
+
+.days-badge {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.day {
+  padding: 10px 20px;
+  background: var(--white);
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: var(--charcoal);
+  font-weight: 500;
+  box-shadow: var(--shadow);
+}
+
+.house-calls-visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.visual-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.visual-emoji {
+  font-size: 8rem;
+}
+
+.floating-tag {
+  position: absolute;
+  padding: 12px 20px;
+  background: var(--white);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: var(--shadow);
+  animation: floatTag 3s ease-in-out infinite;
+}
+
+.tag-1 {
+  top: 10%;
+  left: 0;
+  animation-delay: 0s;
+}
+
+.tag-2 {
+  top: 50%;
+  right: 0;
+  animation-delay: 0.5s;
+}
+
+.tag-3 {
+  bottom: 10%;
+  left: 15%;
+  animation-delay: 1s;
+}
+
+@keyframes floatTag {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 900px) {
+  .house-calls-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .house-calls-visual {
+    min-height: 320px;
+  }
+
+  .visual-circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .visual-emoji {
+    font-size: 6rem;
+  }
+}

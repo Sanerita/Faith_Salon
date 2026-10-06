@@ -1,0 +1,75 @@
+.services {
+  background: var(--white);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.service-card {
+  background: var(--cream);
+  border-radius: 20px;
+  padding: 40px 30px;
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+  animation: fadeInUp 0.6s ease backwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--blush);
+  background: var(--white);
+}
+
+.service-icon {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: var(--blush);
+  border-radius: 50%;
+}
+
+.service-title {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: var(--charcoal);
+}
+
+.service-desc {
+  color: var(--soft-gray);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+}
+
+.service-list li {
+  font-size: 0.9rem;
+  color: var(--charcoal);
+  padding: 6px 0 6px 20px;
+  position: relative;
+}
+
+.service-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--deep-rose);
+  font-size: 0.7rem;
+}
