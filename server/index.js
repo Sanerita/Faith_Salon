@@ -46,3 +46,14 @@ app.post('/api/bookings', (req, res) => {
 app.listen(PORT, () => {
   console.log(`✨ Faith Salon server running on http://localhost:${PORT}`);
 });
+
+// Export the app for Vercel
+export default app;
+
+// Only listen directly if running locally (not on Vercel)
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`✨ Faith Salon server running on http://localhost:${PORT}`);
+  });
+}
