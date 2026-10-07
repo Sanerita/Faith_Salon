@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import PriceList from './components/PriceList';  
 import HouseCalls from './components/HouseCalls';
 import About from './components/About';
 import Booking from './components/Booking';
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <PriceList /> 
       <HouseCalls />
       <About />
       <Booking />
