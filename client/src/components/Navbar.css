@@ -27,6 +27,19 @@
 
 .logo {
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  display: flex;
   flex-direction: column;
   line-height: 1;
 }

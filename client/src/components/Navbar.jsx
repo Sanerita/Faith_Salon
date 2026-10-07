@@ -17,10 +17,12 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <a href="#home" className="logo" onClick={closeMenu}>
-          <span className="logo-main">Faith</span>
-          <span className="logo-sub">Hair & Beauty</span>
-        </a>
-
+  <img src="/Faith_Hair_Logo2.png" alt="Faith Hair & Beauty Salon" className="logo-img" />
+  <span className="logo-text">
+    <span className="logo-main">Faith</span>
+    <span className="logo-sub">Hair & Beauty</span>
+  </span>
+</a>
         <button 
           className={`menu-toggle ${menuOpen ? 'open' : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}
