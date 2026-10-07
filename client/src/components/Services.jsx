@@ -20,16 +20,34 @@ const services = [
     items: ['Manicures & Pedicures', 'Gel & Acrylic Nails', 'Nail Art', 'Nail Treatments']
   },
   {
+    icon: '🦶',
+    title: 'Foot Spas',
+    description: 'Treat your feet to a luxurious soak, scrub, and massage — pure relaxation for tired soles.',
+    items: ['Luxury Foot Soak', 'Exfoliating Scrub', 'Foot Massage', 'Moisturizing Treatment']
+  },
+  {
     icon: '💆‍♀️',
     title: 'Massage',
     description: 'Melt away stress with our relaxing full-body and targeted massage therapies.',
     items: ['Full Body Massage', 'Deep Tissue', 'Relaxation Massage', 'Aromatherapy']
   },
   {
-    icon: '🦶',
+    icon: '🌸',
     title: 'Reflexology',
     description: 'Restore balance and wellness through ancient pressure-point foot therapy.',
     items: ['Foot Reflexology', 'Hand Reflexology', 'Stress Relief', 'Wellness Therapy']
+  },
+  {
+    icon: '🪶',
+    title: 'Waxing',
+    description: 'Quick, gentle strip waxing for smooth, flawless skin on all your delicate areas.',
+    items: ['Eyebrow Wax', 'Lip Wax', 'Chin Wax', 'Full Face Wax']
+  },
+  {
+    icon: '🖌️',
+    title: 'Brows',
+    description: 'Frame your face with perfectly shaped and tinted brows by our expert stylists.',
+    items: ['Brow Shaping', 'Brow Tinting', 'Shape & Tint Combo', 'Brow Grooming']
   }
 ];
 

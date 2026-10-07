@@ -2,27 +2,56 @@ import { useState } from 'react';
 import './Booking.css';
 
 const services = [
+  // Hair
   'Hair - Cut & Style',
   'Hair - Coloring',
   'Hair - Treatment',
   'Hair - Braiding/Weaves',
+  
+  // Lashes
   'Lashes - Classic',
   'Lashes - Volume',
   'Lashes - Lift/Tint',
+  
+  // Nails
   'Nails - Manicure',
   'Nails - Pedicure',
   'Nails - Gel/Acrylic',
   'Nails - Nail Art',
+  
+  // Foot Spas
+  'Foot Spas - Luxury Soak',
+  'Foot Spas - Scrub & Massage',
+  
+  // Massage
   'Massage - Full Body',
   'Massage - Deep Tissue',
   'Massage - Relaxation',
+  
+  // Reflexology
   'Reflexology - Foot',
   'Reflexology - Hand',
+  
+  // Waxing
+  'Waxing - Eyebrow',
+  'Waxing - Lip',
+  'Waxing - Chin',
+  'Waxing - Full Face',
+  
+  // Brows
+  'Brows - Shaping',
+  'Brows - Tinting',
+  'Brows - Shape & Tint Combo',
+  
+  // House Calls (Mon – Wed)
   'House Call - Hair',
   'House Call - Lashes',
   'House Call - Nails',
+  'House Call - Foot Spas',
   'House Call - Massage',
-  'House Call - Reflexology'
+  'House Call - Reflexology',
+  'House Call - Waxing',
+  'House Call - Brows'
 ];
 
 export default function Booking() {
