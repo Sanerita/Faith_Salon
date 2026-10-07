@@ -27,8 +27,12 @@ export default function HouseCalls() {
           </div>
           <div className="house-calls-visual">
             <div className="visual-circle">
-              <div className="visual-emoji">🏠</div>
-            </div>
+  <img 
+    src="/pin-vector.jpg" 
+    alt="House call beauty service" 
+    className="visual-photo" 
+  />
+</div>
             <div className="floating-tag tag-1">💅 Nails</div>
             <div className="floating-tag tag-2">💆‍♀️ Massage</div>
             <div className="floating-tag tag-3">✂️ Hair</div>

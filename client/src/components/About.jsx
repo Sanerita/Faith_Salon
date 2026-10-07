@@ -7,10 +7,10 @@ export default function About() {
         <div className="about-content">
           <div className="about-visual">
             <div className="about-img-frame">
-              <div className="about-img-inner">
-                <span className="about-emoji">💖</span>
-              </div>
-            </div>
+  <div className="about-img-inner">
+    <img src="/Aboutpic.png" alt="Faith Hair & Beauty Salon" className="about-photo" />
+  </div>
+</div>
             <div className="about-stat">
               <span className="stat-number">10+</span>
               <span className="stat-label">Years of Experience</span>
